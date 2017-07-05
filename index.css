@@ -1,0 +1,497 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #FFE4E1;
+    max-width: 980px;
+    margin: 0 auto;
+    
+}
+
+nav {
+    margin: 0;
+    position: relative;
+    width: 100%;
+    min-height: 100px;
+    background-color: #34495e;
+    border-radius: 8px;
+    font-size: 50px;
+}
+
+nav a {
+    line-height: 90px;
+    height: 100%;
+    font-size: 18px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+
+}
+
+nav .animation {
+    position: absolute;
+    min-height: 100px;
+    top: 0;
+    z-index: 0;
+    transition: all 0.5s 0s ease;
+    border-radius: 8px;
+    margin: 0;
+}
+
+a:nth-child(1) {
+    width: 100px;
+}
+
+a:nth-child(2) {
+    width: 110px;
+}
+
+a:nth-child(3) {
+    width: 100px;
+}
+
+a:nth-child(4) {
+    width: 160px;
+}
+
+a:nth-child(5) {
+    width: 120px;
+}
+
+nav .start-home,
+a:nth-child(1):hover~.animation {
+    width:100px;
+    left: 0;
+    background-color: #1abc9c;
+}
+
+nav .start-services,
+a:nth-child(2):hover~.animation {
+    width: 115px;
+    left: 110px;
+    background-color: #e74c3c;
+}
+
+nav .start-order,
+a:nth-child(3):hover~.animation {
+    width: 135px;
+    left: 230px;
+    background-color: #3498db;
+    margin: 0;
+}
+
+nav .start-cooperation,
+a:nth-child(4):hover~.animation {
+    width: 130px;
+    left: 365px;
+    background-color: #9b59b6;
+}
+
+nav .start-contact,
+a:nth-child(5):hover~.animation {
+    width: 120px;
+    left: 520px;
+    background-color: #e67e22;
+}
+
+.web {
+    border-radius: 20px;
+    float: left;
+    margin: 0 0 1em 1em;
+    height: 260px;
+    max-width: 320px;
+margin-top:20px;
+    
+}
+
+.program {
+    width: 100%;
+    border-radius: 8px;
+    height: 320px;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    /* for IE 6 */
+}
+
+.image h2 {
+    position: absolute;
+    top: 50px;
+    margin-left: 50px;
+    font-size: 40pt;
+    color: #B22222;
+    text-shadow: 2px 2px 5px #6B8E23;
+    font-family: Lobster;
+}
+
+.work p {
+    font-size: 15pt;
+    text-align: justify;
+    margin-left: 0;
+padding: 10px;
+    
+}
+
+.services {
+    border: #B22222 solid 0px;
+    border-radius: 8px;
+    min-height: 40px;
+    padding: 10px;
+   
+    background: #DCDCDC;
+    width: 100%;
+    height: 80px;
+    animation: pulse 5s infinite;
+    box-sizing: border-box;
+}
+
+@keyframes pulse {
+    0% {
+        background-color:  	#C0C0C0;
+    }
+    100% {
+        background-color: #FFE4E1;
+    }
+}
+
+.services h2 {
+    font-size: 30pt;
+    text-align: center;
+    font-family: Lobster;
+
+    
+}
+
+ul {
+    list-style-type: disc;
+    list-style-position: outside;
+    text-align: justify;
+padding: 10px;
+    
+}
+
+li {
+    color: #000000;
+    font-size: 25pt;
+    list-style-position: inside;
+padding: 10px;
+    
+}
+
+.letter {
+    font-size: 20pt;
+    position: relative;
+    font-family: serif;
+    font-weight: normal;
+    color: #000000;
+padding: 10px;
+    
+}
+
+#services img {
+    max-height: 240px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.orderservice {
+    border: #B22222 solid 0px;
+    border-radius: 8px;
+    padding: 10px;
+   
+    background: #DCDCDC;
+    width: 98%;
+    min-height: 80px;
+    animation: pulse 5s infinite;
+}
+
+.orderservice p {
+    font-size: 30pt;
+    text-align: center;
+    font-family: Lobster;
+    margin-top: 10px;
+}
+
+h3 {
+    font-weight: normal;
+    color: #B22222;
+    text-align: justify;
+padding: 10px;
+    
+}
+
+form {
+   
+    max-width: 100%;
+    padding: 30px 30px 6px 30px;
+    border: rgba(0, 0, 0, 0.2) solid 1px;
+    border-radius: 5px;
+    background-clip: padding-box;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 13px 3px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+    border: rgba(255, 255, 255, 0.4) solid 1px;
+    border-radius: 4px;
+    background: #FFE4E1;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    border: rgba(255, 255, 255, 0.4) solid 1px;
+    border-radius: 4px;
+    background: #FFE4E1;
+}
+
+select {
+    width: 100%;
+    height: 50px;
+    background: #FFE4E1;
+}
+
+.button {
+    cursor: pointer;
+    width: 170px;
+    height: 65px;
+    color: #000000;
+    font-weight: bold;
+
+    
+}
+
+.border {
+    border: #B22222 solid 0px;
+    border-radius: 8px;
+    min-height: 40px;
+    padding: 10px;
+   
+    background: #DCDCDC;
+    width: 100%;
+    height: 80px;
+    animation: pulse 5s infinite;
+ box-sizing: border-box;
+    
+}
+
+.people {
+    border-radius: 20px;
+    float: left;
+    margin: 0 0 1em 1em;
+    max-width: 100%;
+    max-height: 300px;
+}
+
+.border h2 {
+    font-size: 30pt;
+    text-align: center;
+    font-family: Lobster;
+    margin-top: 10px;
+}
+
+.partner {
+    height: 240px;
+    width: 100%;
+}
+
+.contact {
+    border: #B22222 solid 0px;
+    min-height: 5px;
+    padding: 8px;
+    
+    background: #DCDCDC;
+    width: 100%;
+    min-height: 80px;
+    animation: pulse 5s infinite;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.footer-social-icons {
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+
+    
+}
+
+.social-icon {
+    color: #fff;
+    padding: 0;
+    list-style: none;
+    margin-top: 10px;
+ margin-left: 0;
+    margin: 0 auto;
+}
+
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fa-twitter {
+    padding: 10px 12px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+
+.fa-facebook {
+    padding: 10px 20px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+
+.fa-facebook:hover {
+    background-color: #00aced;
+}
+
+.fa-rss {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+
+.fa-rss:hover {
+    background-color: #eb8231;
+}
+
+.fa-youtube {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+
+.fa-linkedin {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+
+.fa-google-plus {
+    padding: 10px 9px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+
+.fa-google-plus:hover {
+    background-color: #e25714;
+}
+
+.contact p {
+    text-align: center;
+    font-size: 30pt;
+    font-family: Lobster;
+}
+#ftlink {
+    font-size: 20pt;
+    padding:0 15px;
+padding-bottom:8px;
+   
+}
+#ftlink a {
+    text-decoration: none;
+color:#000000;
+    
+}
+#copyright {
+    font-size: 18pt;
+float: right;
+    
+}
+ #scroller_container {
+        margin: 0 auto;
+        width: 100%;
+        overflow: hidden;
+        line-height:0;
+        font-size:0;
+    height: 250px;
+     
+ }
+    #scroller_container div {
+        float: left;
+        vertical-align: baseline;
+    
+        
+    }
+    #scroller_container>div {
+        position: relative;
+        white-space: nowrap;
+        width: 100%;
+        padding: 22px 0;
+   
+        
+    }
+    #scroller_container>div a,
+    #scroller_container>div a img {
+        padding: 0;
+        margin:0;
+    height: 200px;
+        
+    }
+    #scroller_container>div a img {
+        margin: 0 1px;
+        border:0;
+    }
+    .php {
+        height: 300px;
+    }
+    .knopka {
+        display: flex;
+        justify-content: center;
+    }

@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Cherry+Swash'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">Головна</a>
+            <a href="#services">Послуги</a>
+            <a href="#orderservice">Замовлення</a>
+            <a href="#cooperation">Співпраця</a>
+            <a href="#contact">Контакти</a>
+            <div class="animation start-home"></div>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div class="image">
+                <img src="img/webdevelopment.jpg" alt="webdevelopment" class="program">
+                <h2>Катинський Тарас</h2>
+            </div>
+            <img src="img/web.jpg" alt="web" class="web">
+            <div class="work">
+                <p>
+                    Створення сайтів завжди було дуже серйозною і клопіткою роботою. У випадках, коли він потрібен для звіту, «для галочки», то, звичайно, витрачати на нього багато часу і пристойні суми не має сенсу. Але якщо створити сайт для вирішення значущих бізнес-задач,
+                    ставитися до нього так-сяк, «як-небудь» категорично не можна. Інтернет, хоч і є віртуальним середовищем, але знання, сили і час, які витрачаються на створення таких сайтів цілком реально.У багатьох клієнтів існує досить поширена помилка,
+                    що створити сайт - легко, просто і швидко. Досить, всього лише, на безкоштовному конструкторі натиснути створити сайт і він буде приносити свої плоди ... Але це не так, тому що безкоштовні сайти завжди урізані функціонально, не оптимізовані,
+                    дизайн завжди нудний і примітивний що в свою чергу відбивається на клієнті.
+                </p>
+            </div>
+            <h2>Я надам Вам якісні професійні послуги веб-розробника, і Ви отримаєте сайт який хотіли!</h2>
+            <br>
+        </section>
+        <section id="services">
+            <div class="services">
+                <h2>Послуги</h2>
+            </div>
+            <br>
+            <img src="img/php.jpg" alt="php" class="php">
+            <div>
+                <ul>
+                    <li>
+                        <span class="letter">Допомога в складанні технічного завдання: для сайту, логотипу, дизайну.</span>
+                    </li>
+                    <li>
+                        <span class="letter">Розробка дизайну: кінцевим продуктом, є макети - грубо кажучи, звичайні картинки сайту готові для верстки шаблону.</span>
+                    </li>
+                    <li>
+                        <span class="letter">Верстка HTML-сайту з макета: повна працездатність в HTML Вашого макета.</span>
+                    </li>
+                    <li>
+                        <span class="letter">Наповнення сайту Вашим контентом: товарами інтернет-магазину, текстовою інформацією, графічної інформації.</span>
+                    </li>
+                    <li>
+                        <span class="letter">Розробка логотипів і фірмового стилю: створення графічних елементів, поєднання кольорів, шрифтів.</span>
+                    </li>
+                    <li>
+                        <span class="letter">Установка, доробка додаткового функціоналу: форум, фотогалерея, інтернет-магазин, слайдер, карта сайту, форми для зв'язку.</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <br>
+        <section id="orderservice">
+            <div class="orderservice">
+                <p>Ви готові зробити замовлення?</p>
+            </div>
+            <br><br>
+            <h3>Заповніть форму точною інформацією про Ваше замовлення, далі я зв'яжуся з вами за вказаними контактами в формі і ми детально обговоримо технічне завдання, терміни, умови оплати і відповім на всі Ваші запитання.</h3>
+            <br>
+            <br>
+            <form method="POST" action="https://formspree.io/katinskiytaras@gmail.com">
+                <label>
+                    <b>Назвіться будь-ласка *</b>
+                    <input type="text" name="name" required>
+                    </label>
+                <label>
+                    <b>Ваш e-mail*</b>
+                    <input type="text" name="email" required>
+               </label>
+                <label>
+                    <b>Контактний телефон *</b>
+                    <input type="text" name="telephpne" required>
+                </label>
+                <b>Виберіть послугу *</b>
+                <select name="site">
+                        <option value="Order a site">Замовити сайт</option>
+                        <option value="Assistance in completing a technical task">Допомога в складанні технічного завдання</option>
+                        <option value="Design development">Розробка дизайну</option>
+                        <option value="HTML layout">Верстка HTML</option>
+                        <option value="Website filling">Наповнення сайту</option>
+                        <option value="Logo design and corporate identity">Розробка логотипів і фірмового стилю</option>
+                        <option value="Installation, refinement of additional functionality">Установка, доробка додаткового функціоналу</option>
+                </select>
+                <br>
+                <br>
+                <label>
+        <textarea name="Description of the project, requirements, competitors, special wishes, budget" rows="10" cols="100" placeholder=" Опис проекту, вимоги, конкуренти, особливі побажання, бюджет"></textarea>
+        </label>
+                <br>
+                <br>
+                <div class="knopka"><input name="submit" class="button" type="submit" value="Відправити" /></div>
+            </form>
+        </section>
+        <br><br>
+        <section id="cooperation">
+            <div class="border">
+                <h2>Співпраця</h2>
+            </div>
+            <br>
+            <img src="img/people.jpg" alt="people" class="people">
+            <div class="work">
+                <p>Я завжди радий партнерству і співробітництву з іншими розробниками або веб-студіями пов'язаними зі створенням сайтів, розкручуванням і просуванням сайтів і рекламними агентствами. Запрошую до співпраці всіх, хто зацікавлений на взаємовигідних
+                    умовах створювати якісні веб-сайти, дизайни та інше. Готовий до обговорення будь-яких виробничих і комерційних питань, готовий стати порядною і надійним партнером, взявши на себе всі зобов'язання щодо втілення ідей і завдань в питаннях
+                    веб-індустрії. Веб-студіям та рекламним агенціям пропоную професійні послуги високої якості у створенні сайтів, веб розробці, оптимізації, дизайні, створенні фірмового стилю та ін. Послуг дизайну, а також консалтинг в сфері веб-технологій.
+                    Я відкритий для будь-яких пропозицій на предмет співпраці з розробки стартапів. Зацікавлений і мотивований на участь в такого роду проектах на довгостроковій основі.</p>
+            </div>
+        </section>
+    </main>
+    <br>
+    <footer>
+        <div id="contact" class="contact">
+            <p>Залишились запитання?</p>
+        </div>
+        <br>
+        <div class="footer-social-icons">
+            <ul class="social-icons">
+                <li>
+                    <a href="https://twitter.com/?lang=uk" class="social-icon"> <i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="https://uk-ua.facebook.com/" class="social-icon"> <i class="fa fa-facebook"></i></a>
+                </li>
+
+                <li>
+                    <a href="https://www.youtube.com/?hl=uk&gl=UA" class="social-icon"> <i class="fa fa-youtube"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/" class="social-icon"> <i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="https://plus.google.com/" class="social-icon"> <i class="fa fa-google-plus"></i></a>
+                </li>
+            </ul>
+        </div>
+        <br>
+        <div id="scroller_container" onmousemove="_scroller.stop();" onmouseout="_scroller.timer(_scroller.direct);">
+            <div>
+                <a href="#1" onclick="return!1"><img src="img/joke.jpg" alt="joke"></a>
+                <a href="#2" onclick="return!1"><img src="img/lifeEngeener.jpg" alt="lifeEngeener"></a>
+                <a href="#3" onclick="return!1"><img src="img/restaurant.jpg" alt="restaurant"></a>
+                <a href="#4" onclick="return!1"><img src="img/titanic.jpg" alt="titanic"></a>
+                <a href="#5" onclick="return!1"><img src="img/todo.jpg" alt="todo"></a>
+                <a href="#6" onclick="return!1"><img src="img/ariel.jpg" alt="ariel"></a>
+                <a href="#6" onclick="return!1"><img src="img/funny.jpg" alt="funny"></a>
+                <a href="#6" onclick="return!1"><img src="img/coffee.jpg" alt="coffee"></a>
+            </div>
+        </div>
+        <div id="ftlink">
+            <a href="#home">Головна</a> | <a href="#services">Послуги</a> | <a href="#orderservice">Замовлення</a> | <a href="#cooperation">Співпраця</a> | <a href="#contact">Контакти</a>
+            <p id="copyright">© 2017 Katinskyi Taras.</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
