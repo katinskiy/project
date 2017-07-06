@@ -16,7 +16,7 @@ nav {
     width: 100%;
     min-height: 100px;
     background-color: #34495e;
-    border-radius: 8px;
+    
     font-size: 50px;
 }
 
@@ -41,7 +41,7 @@ nav .animation {
     top: 0;
     z-index: 0;
     transition: all 0.5s 0s ease;
-    border-radius: 8px;
+    
     margin: 0;
 }
 
@@ -62,7 +62,7 @@ a:nth-child(4) {
 }
 
 a:nth-child(5) {
-    width: 120px;
+    width: 70px;
 }
 
 nav .start-home,
@@ -97,12 +97,12 @@ a:nth-child(4):hover~.animation {
 nav .start-contact,
 a:nth-child(5):hover~.animation {
     width: 120px;
-    left: 520px;
+    left: 510px;
     background-color: #e67e22;
 }
 
 .web {
-    border-radius: 20px;
+    
     float: left;
     margin: 0 0 1em 1em;
     height: 260px;
@@ -113,7 +113,7 @@ margin-top:20px;
 
 .program {
     width: 100%;
-    border-radius: 8px;
+   
     height: 320px;
 }
 
@@ -143,7 +143,7 @@ padding: 10px;
 
 .services {
     border: #B22222 solid 0px;
-    border-radius: 8px;
+   
     min-height: 40px;
     padding: 10px;
    
@@ -205,7 +205,7 @@ padding: 10px;
 
 .orderservice {
     border: #B22222 solid 0px;
-    border-radius: 8px;
+    
     padding: 10px;
    
     background: #DCDCDC;
@@ -234,7 +234,7 @@ form {
     max-width: 100%;
     padding: 30px 30px 6px 30px;
     border: rgba(0, 0, 0, 0.2) solid 1px;
-    border-radius: 5px;
+   
     background-clip: padding-box;
     background: rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 13px 3px rgba(0, 0, 0, 0.5);
@@ -275,7 +275,7 @@ select {
 
 .border {
     border: #B22222 solid 0px;
-    border-radius: 8px;
+   
     min-height: 40px;
     padding: 10px;
    
@@ -288,7 +288,7 @@ select {
 }
 
 .people {
-    border-radius: 20px;
+   
     float: left;
     margin: 0 0 1em 1em;
     max-width: 100%;
@@ -318,7 +318,7 @@ select {
     animation: pulse 5s infinite;
     box-sizing: border-box;
     margin-top: 10px;
-    border-radius: 8px;
+   
 }
 
 .footer-social-icons {
@@ -357,6 +357,8 @@ select {
     -webkit-transition: .5s;
     transition: .5s;
     background-color: #322f30;
+border-radius: 4px;
+    
 }
 
 .fa-twitter:hover {
@@ -371,6 +373,8 @@ select {
     -webkit-transition: .5s;
     transition: .5s;
     background-color: #322f30;
+border-radius: 4px;
+    
 }
 
 .fa-facebook:hover {
@@ -385,6 +389,8 @@ select {
     -webkit-transition: .5s;
     transition: .5s;
     background-color: #322f30;
+border-radius: 4px;
+    
 }
 
 .fa-rss:hover {
@@ -399,6 +405,8 @@ select {
     -webkit-transition: .5s;
     transition: .5s;
     background-color: #322f30;
+border-radius: 4px;
+    
 }
 
 .fa-youtube:hover {
@@ -413,6 +421,8 @@ select {
     -webkit-transition: .5s;
     transition: .5s;
     background-color: #322f30;
+border-radius: 4px;
+    
 }
 
 .fa-linkedin:hover {
@@ -427,6 +437,8 @@ select {
     -webkit-transition: .5s;
     transition: .5s;
     background-color: #322f30;
+border-radius: 4px;
+    
 }
 
 .fa-google-plus:hover {
@@ -495,3 +507,4 @@ float: right;
         display: flex;
         justify-content: center;
     }
+   

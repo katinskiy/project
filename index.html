@@ -78,21 +78,22 @@
             <h3>Заповніть форму точною інформацією про Ваше замовлення, далі я зв'яжуся з вами за вказаними контактами в формі і ми детально обговоримо технічне завдання, терміни, умови оплати і відповім на всі Ваші запитання.</h3>
             <br>
             <br>
-            <form method="POST" action="https://formspree.io/katinskiytaras@gmail.com">
+           
+            <form id="myForm">
                 <label>
                     <b>Назвіться будь-ласка *</b>
-                    <input type="text" name="name" required>
+                    <input id="user-name" type="text" name="name" required>
                     </label>
                 <label>
-                    <b>Ваш e-mail*</b>
-                    <input type="text" name="email" required>
+                    <b>Ваш e-mail *</b>
+                    <input id="user-email" type="email" name="email" required>
                </label>
                 <label>
                     <b>Контактний телефон *</b>
-                    <input type="text" name="telephpne" required>
+                    <input id="user-contact" type="text" name="contact" required>
                 </label>
                 <b>Виберіть послугу *</b>
-                <select name="site">
+                <select id="user-site" name="site">
                         <option value="Order a site">Замовити сайт</option>
                         <option value="Assistance in completing a technical task">Допомога в складанні технічного завдання</option>
                         <option value="Design development">Розробка дизайну</option>
@@ -104,11 +105,11 @@
                 <br>
                 <br>
                 <label>
-        <textarea name="Description of the project, requirements, competitors, special wishes, budget" rows="10" cols="100" placeholder=" Опис проекту, вимоги, конкуренти, особливі побажання, бюджет"></textarea>
+        <textarea name="wish" id="user-wish" rows="10" cols="100" placeholder=" Опис проекту, вимоги, конкуренти, особливі побажання, бюджет"></textarea>
         </label>
                 <br>
                 <br>
-                <div class="knopka"><input name="submit" class="button" type="submit" value="Відправити" /></div>
+                <div class="knopka"><input id="btn-send" class="button" type="submit" value="Відправити" /></div>
             </form>
         </section>
         <br><br>
@@ -157,7 +158,7 @@
             <div>
                 <a href="#1" onclick="return!1"><img src="img/joke.jpg" alt="joke"></a>
                 <a href="#2" onclick="return!1"><img src="img/lifeEngeener.jpg" alt="lifeEngeener"></a>
-                <a href="#3" onclick="return!1"><img src="img/restaurant.jpg" alt="restaurant"></a>
+                
                 <a href="#4" onclick="return!1"><img src="img/titanic.jpg" alt="titanic"></a>
                 <a href="#5" onclick="return!1"><img src="img/todo.jpg" alt="todo"></a>
                 <a href="#6" onclick="return!1"><img src="img/ariel.jpg" alt="ariel"></a>
@@ -170,6 +171,8 @@
             <p id="copyright">© 2017 Katinskyi Taras.</p>
         </div>
     </footer>
+   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+   <script src="form.js"></script>
     <script src="index.js"></script>
 </body>
 </html>
