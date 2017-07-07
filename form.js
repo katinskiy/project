@@ -11,8 +11,7 @@ function sendForm(e) {
     data: {
     name: $('#user-name').val(),
     email: $('#user-email').val(),
-    contact: $('#user-contact').val(),
-    site: $('#user-site'),
+    
     wish: $('#user-wish').val()
     },
     dataType: "json"

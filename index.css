@@ -15,9 +15,11 @@ nav {
     position: relative;
     width: 100%;
     min-height: 100px;
-    background-color: #34495e;
+    background-color: 	#34495e;
     
     font-size: 50px;
+
+    
 }
 
 nav a {
@@ -30,7 +32,7 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    color: white;
+    color: 	#FFE4E1;
     cursor: pointer;
 
 }
@@ -69,7 +71,7 @@ nav .start-home,
 a:nth-child(1):hover~.animation {
     width:100px;
     left: 0;
-    background-color: #1abc9c;
+    background-color: 		#FF4500;
 }
 
 nav .start-services,
@@ -98,7 +100,7 @@ nav .start-contact,
 a:nth-child(5):hover~.animation {
     width: 120px;
     left: 510px;
-    background-color: #e67e22;
+    background-color: 	#008000;
 }
 
 .web {
@@ -138,7 +140,9 @@ margin-top:20px;
     text-align: justify;
     margin-left: 0;
 padding: 10px;
-    
+   font-family: Consolas; 
+font-weight: normal;
+    color: #34495e;
 }
 
 .services {
@@ -167,7 +171,7 @@ padding: 10px;
     font-size: 30pt;
     text-align: center;
     font-family: Lobster;
-
+color: #B22222;
     
 }
 
@@ -188,12 +192,14 @@ padding: 10px;
 }
 
 .letter {
-    font-size: 20pt;
+    font-size: 18pt;
     position: relative;
-    font-family: serif;
+    font-family: Lucida Console;
     font-weight: normal;
-    color: #000000;
+    
 padding: 10px;
+    text-align: center;
+ color: #006400;
     
 }
 
@@ -219,14 +225,16 @@ padding: 10px;
     text-align: center;
     font-family: Lobster;
     margin-top: 10px;
+color: #B22222;
+    
 }
 
 h3 {
     font-weight: normal;
-    color: #B22222;
-    text-align: justify;
-padding: 10px;
     
+    text-align: center;
+padding: 10px;
+    color: 	#34495e;
 }
 
 form {
@@ -261,6 +269,10 @@ select {
     width: 100%;
     height: 50px;
     background: #FFE4E1;
+font-size: 12pt;
+    font-weight:bold;
+color: #006400;
+    
 }
 
 .button {
@@ -269,7 +281,7 @@ select {
     height: 65px;
     color: #000000;
     font-weight: bold;
-
+font-size: 15pt;
     
 }
 
@@ -300,6 +312,8 @@ select {
     text-align: center;
     font-family: Lobster;
     margin-top: 10px;
+color: #B22222;
+    
 }
 
 .partner {
@@ -449,6 +463,8 @@ border-radius: 4px;
     text-align: center;
     font-size: 30pt;
     font-family: Lobster;
+color: #B22222;
+    
 }
 #ftlink {
     font-size: 20pt;
@@ -506,5 +522,10 @@ float: right;
     .knopka {
         display: flex;
         justify-content: center;
+    }
+    b {
+        font-size: 15pt;
+    color: #FFE4E1;
+        
     }
    

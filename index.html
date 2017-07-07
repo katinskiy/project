@@ -13,7 +13,9 @@
 </head>
 <body>
     <header>
+        
         <nav>
+            
             <a href="#home">Головна</a>
             <a href="#services">Послуги</a>
             <a href="#orderservice">Замовлення</a>
@@ -74,26 +76,26 @@
             <div class="orderservice">
                 <p>Ви готові зробити замовлення?</p>
             </div>
-            <br><br>
-            <h3>Заповніть форму точною інформацією про Ваше замовлення, далі я зв'яжуся з вами за вказаними контактами в формі і ми детально обговоримо технічне завдання, терміни, умови оплати і відповім на всі Ваші запитання.</h3>
             <br>
+            <h3>Заповніть форму точною інформацією про Ваше замовлення, далі я зв'яжуся з вами за вказаними контактами в формі і ми детально обговоримо технічне завдання, терміни, умови оплати і відповім на всі Ваші запитання.</h3>
+            
             <br>
            
-            <form id="myForm">
+            <form action="https://formspree.io/katinskiytaras@gmail.com" method="POST">
                 <label>
                     <b>Назвіться будь-ласка *</b>
-                    <input id="user-name" type="text" name="name" required>
+                    <input type="text" name="name" required>
                     </label>
                 <label>
                     <b>Ваш e-mail *</b>
-                    <input id="user-email" type="email" name="email" required>
+                    <input type="email" name="email" required>
                </label>
                 <label>
                     <b>Контактний телефон *</b>
-                    <input id="user-contact" type="text" name="contact" required>
+                    <input type="text" name="contact" required>
                 </label>
                 <b>Виберіть послугу *</b>
-                <select id="user-site" name="site">
+                <select name="site">
                         <option value="Order a site">Замовити сайт</option>
                         <option value="Assistance in completing a technical task">Допомога в складанні технічного завдання</option>
                         <option value="Design development">Розробка дизайну</option>
@@ -105,11 +107,11 @@
                 <br>
                 <br>
                 <label>
-        <textarea name="wish" id="user-wish" rows="10" cols="100" placeholder=" Опис проекту, вимоги, конкуренти, особливі побажання, бюджет"></textarea>
+        <textarea name="wish" rows="10" cols="100" placeholder=" Опис проекту, вимоги, конкуренти, особливі побажання, бюджет"></textarea>
         </label>
                 <br>
                 <br>
-                <div class="knopka"><input id="btn-send" class="button" type="submit" value="Відправити" /></div>
+                <div class="knopka"><input class="button" type="submit" value="Відправити" /></div>
             </form>
         </section>
         <br><br>
@@ -172,7 +174,8 @@
         </div>
     </footer>
    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-   <script src="form.js"></script>
+   
     <script src="index.js"></script>
+
 </body>
 </html>
